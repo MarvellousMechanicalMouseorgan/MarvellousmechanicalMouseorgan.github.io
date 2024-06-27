@@ -23,13 +23,14 @@ body {
 
 .content {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     padding: 20px;
 }
 
 .main-article {
     flex: 3;
     padding-right: 20px;
+    overflow: auto;
 }
 
 .main-article h2 {
@@ -42,10 +43,14 @@ body {
     color: gray;
 }
 
+.main-article figure {
+    margin: 20px 0;
+    text-align: center;
+}
+
 .main-article img {
-    max-width: 80%;
+    max-width: 100%;
     height: auto;
-    margin: 5px 0;
 }
 
 .main-article figcaption {
@@ -62,6 +67,7 @@ body {
     flex: 1;
     padding-left: 20px;
     border-left: 1px solid #ccc;
+    overflow: auto;
 }
 
 .side-articles h3 {
