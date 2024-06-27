@@ -43,9 +43,9 @@ body {
 }
 
 .main-article img {
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
-    margin: 10px 0;
+    margin: 5px 0;
 }
 
 .main-article figcaption {
